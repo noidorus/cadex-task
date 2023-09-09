@@ -1,4 +1,4 @@
-import { ConeGeometry } from '../types';
+import { ConeGeometry } from '../src/types';
 
 export const computeCone = (
   height: number,

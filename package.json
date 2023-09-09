@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "server": "npx nodemon",
-    "build": "tsc && vite build && ts-node-esm --experimental-specifier-resolution=node ./src/server/server.ts",
+    "build": "tsc && vite build ",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
